@@ -1,6 +1,68 @@
-h1{
-  color:blue;
+* { /* Esta es la pagina que engloba todas las otras */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-h2{
-  color:blue;
+.about-us { /* Esta engloba la parte del aboutus */
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+}
+.pic { /* Esto lo que hace es que la foto no se me salga del recuadro */
+  height: auto;
+  width: 400px;
+  border-radius: 12px;
+}
+.about { /*Para la parte general del documento*/
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text { /*Esta es la regla general del texto pero luego se lo pongo a los distintos atributos*/
+  width: 540px;
+}
+.text h2 {
+  color: #333;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text h5 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span {
+  color: #1137a2; /*Esto hace la palabra resaltada en azul*/
+}
+.text p {
+  color: #333;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.data {
+  margin-top: 30px;
+}
+.redireccion {
+  font-size: 18px;
+  background: #d81414;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.redireccion:hover {
+  background: #000;
 }
